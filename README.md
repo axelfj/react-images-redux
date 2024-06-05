@@ -16,8 +16,6 @@ A simple Redux-powered image gallery application that fetches images from the [P
 - **Redux Toolkit**: The official, opinionated, batteries-included toolset for efficient Redux development.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 - **styled-components**: A CSS-in-JS library for styling React components.
-- **Jest**: A delightful JavaScript testing framework.
-- **React Testing Library**: A simple and complete testing library for React.
 - **fetch API**: A modern interface for fetching resources asynchronously across the network.
 
 ## Getting Started
@@ -45,14 +43,6 @@ npm start
 
 This will start the development server and open the application in your default web browser.
 
-### Running Tests
-
-```bash
-npm test
-```
-
-This will run the test suite and provide feedback on the application's functionality.
-
 ## Folder Structure
 
 ```
@@ -61,18 +51,13 @@ images-react-project/
 ├── src/
 │   ├── components/
 │   │   ├── ImageList/
-│   │   │   ├── ImageList.tsx
-│   │   │   ├── ImageList.styles.ts
-│   │   │   └── ImageList.test.tsx
+│   │   │   └── ImageList.tsx
 │   │   ├── ImageViewer/
-│   │   │   ├── ImageViewer.tsx
-│   │   │   ├── ImageViewer.styles.ts
-│   │   │   └── ImageViewer.test.tsx
+│   │   │   └── ImageViewer.tsx
 │   │   └── ...
 │   ├── store/
 │   │   ├── slices/
-│   │   │   ├── imageSlice.ts
-│   │   │   └── imageSlice.test.ts
+│   │   │   └── imageSlice.ts
 │   │   ├── store.ts
 │   │   └── ...
 │   ├── App.tsx
@@ -87,4 +72,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is NOT licensed, yet.
