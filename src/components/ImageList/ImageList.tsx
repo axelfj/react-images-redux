@@ -12,7 +12,7 @@ import styled from 'styled-components';
 const ImageListContainer = styled.div`
   flex: 1;
   overflow-y: scroll;
-  max-height: 90%;
+  padding: 20px;
 `;
 
 const FileInput = styled.input`

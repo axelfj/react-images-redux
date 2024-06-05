@@ -12,10 +12,12 @@ const ImageViewerContainer = styled.div`
   justify-content: center;
   max-height: 80%;
 `;
+
 const ImageElement = styled.img`
   max-width: 80%;
   max-height: 80%;
 `;
+
 const ClearButton = styled.button`
   margin-top: 10px;
 `;
