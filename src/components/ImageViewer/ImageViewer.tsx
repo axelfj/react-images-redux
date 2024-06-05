@@ -10,12 +10,12 @@ const ImageViewerContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 80%;
+  background-color: grey;
+  float: left;
 `;
 
 const ImageElement = styled.img`
   max-width: 80%;
-  max-height: 80%;
 `;
 
 const ClearButton = styled.button`
@@ -32,6 +32,7 @@ const ImageViewer: React.FC = () => {
     <ImageViewerContainer>
       {selectedImage ? (
         <>
+        <h3>Image Selected</h3>
           <ImageElement
             src={selectedImage.download_url}
             alt={selectedImage.author}

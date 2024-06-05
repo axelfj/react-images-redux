@@ -12,7 +12,7 @@ const Container = styled.div`
   color: white;
 `;
 
-function App() {
+const App: React.FC = () => {
   return (
     <Provider store={store}>
       <Container>
